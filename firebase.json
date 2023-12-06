@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "User-Manager",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

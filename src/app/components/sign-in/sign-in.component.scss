@@ -1,0 +1,43 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/buttons";
+@import "../../../assets/style/placeholders";
+
+.sign-in {
+  @extend %userProcess;
+
+  .sign-up a {
+    color: $mainColor;
+  }
+}
+
+.card {
+  background-color: white;
+  border: 0;
+  height: 600px;
+}
+
+.submit {
+  @extend %main-btn;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .sign-in {
+    align-items: center !important;
+
+    .form-container {
+      margin: auto;
+      height: 600px !important;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 5px !important;
+      -webkit-border-radius: 5px !important;
+      -moz-border-radius: 5px !important;
+      -ms-border-radius: 5px !important;
+      -o-border-radius: 5px !important;
+    }
+  }
+
+}

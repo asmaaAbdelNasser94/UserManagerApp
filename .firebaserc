@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "user-managment-system-13d5b": {
+      "hosting": {
+        "User-Manager": [
+          "user-managment-system-13d5b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "user-managment-system-13d5b"
+  }
+}

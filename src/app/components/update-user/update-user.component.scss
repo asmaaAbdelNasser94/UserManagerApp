@@ -1,0 +1,5 @@
+@import "../../../assets/style/colors";
+@import "../../../assets/style/buttons";
+.submit {
+ @extend %main-btn;
+}
